@@ -1,0 +1,11 @@
+output_model/
+wandb/
+*.safetensors
+*.png
+*.jpg
+*.mp4
+*.zip
+*.rar
+*.tar
+*.7z
+*.exe
