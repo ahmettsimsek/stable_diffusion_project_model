@@ -19,3 +19,17 @@ During the training process, we encountered some memory-related issues and missi
 Learning rate and batch size were fine-tuned to improve training performance.
 
 max_train_steps was set to 100 to control the training duration and avoid overfitting or instability.
+
+⚙️ Key Training Settings
+Parameter	Value
+Model	stabilityai/stable-diffusion-xl-base-1.0
+VAE	madebyollin/sdxl-vae-fp16-fix
+Resolution	512x512
+Batch Size	1
+Learning Rate	1e-06
+Scheduler	constant
+Mixed Precision	fp16
+Logging / Monitoring	Weights & Biases (wandb)
+Data Augmentation	center_crop, random_flip
+Total Training Steps	100
+
